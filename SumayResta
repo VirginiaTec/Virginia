@@ -1,0 +1,28 @@
+
+package suma_resta;
+import java.util.Scanner;
+public class Suma_resta {
+
+
+  public static void main(String[] args) {
+      Scanner Scanner = new Scanner (System.in);
+
+        System.out.print("Ingrese el primer número: ");
+        int numero1 = Scanner.nextInt();
+
+        System.out.print("Ingrese el segundo número: ");
+        int numero2 = Scanner.nextInt();
+
+        int suma = numero1 + numero2;
+        int resta = numero1 - numero2;
+
+        System.out.println("La suma es: " + suma);
+        System.out.println("La resta es: " + resta);
+    }
+
+   
+        }
+   
+
+   
+            
